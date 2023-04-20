@@ -27,9 +27,10 @@ const questions = [
             name: 'usage',
         },
         {
-            type: 'input',
-            message: 'What lisence applies for your application?',
+            type: 'list',
+            message: 'Please enter your license:',
             name: 'license',
+            choices: ['MIT', 'BSD','Apache','Apache_2', 'GPL','compliant', 'none'],
         },
         {
             type: 'input',
