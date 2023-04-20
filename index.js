@@ -7,35 +7,35 @@ const generateMarkdown = require("./utils/generateMarkdown");
 // TODO: Create an array of questions for user input
 const questions = [
         {
-          type: 'input',
-          message: 'What is your preferred Title for your Readme?',
-          name: 'title',
+        type: 'input',
+        message: 'What is your preferred Title for your Readme?',
+        name: 'title',
         },
         {
-          type: 'input',
-          message: 'Write a description for your Readme:',
-          name: 'description',
+        type: 'input',
+        message: 'Write a description for your Readme:',
+        name: 'description',
         },
         {
-          type: 'input',
-          message: 'What were your steps for installing your project?',
-          name: 'installation',
+        type: 'input',
+        message: 'What were your steps for installing your project?',
+        name: 'installation',
         },
         {
             type: 'input',
             message: 'How can you application be used?',
             name: 'usage',
-          },
-          {
+        },
+        {
             type: 'input',
             message: 'What lisence applies for your application?',
             name: 'license',
-          },
-          {
+        },
+        {
             type: 'input',
             message: 'What contributions have others made to your project?',
             name: 'contributions',
-          },
+        },
         ]
 
 
@@ -53,7 +53,7 @@ function init() {
     .then((response) => {
         const markdownPage = generateMarkdown(response)
         writeToFile("ReadmeTest.md", markdownPage) 
-      })
+    })
 }
 
 // Function call to initialize app
