@@ -9,19 +9,20 @@
 
 
 ## Description:
-my
+whats
 
 ## Installation: 
-name
+yout
 
 ## Usage:
-is 
+name
 
 ## Credits:
-undefined
+James
 
 ## License:
-MIT
+Apache_2
+[![License:Apache_2](https://img.shields.io/badge/license-Apache_2-success)](https://opensource.org/licenses/Apache_2)
 
 ## Contributions:
-franseen
+whatsup

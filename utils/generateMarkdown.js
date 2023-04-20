@@ -36,7 +36,9 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-// [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+return `[![License:${license}](${renderLicenseBadge(license)})](https://opensource.org/licenses/${license})`
+
 }
 
 
@@ -68,6 +70,7 @@ ${data.credits}
 
 ## License:
 ${data.license}
+${renderLicenseSection(data.license)}
 
 ## Contributions:
 ${data.contributions}
@@ -76,3 +79,14 @@ ${data.contributions}
 
 module.exports = generateMarkdown;
 
+// Issues:
+// 1. How do you create the function that returns the license section of README
+// If there is no license, return an empty string
+
+// 2. Edit the links so that the badges will showup and can be clicked on to take you to open source. 
+
+// 3. Figure out what is undefined in the steps section. 
+
+// 4. Explain the functions toWriteFile and init()
+
+// Figure out how the professor wants for this to be displayed? Screen castify? 

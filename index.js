@@ -27,6 +27,11 @@ const questions = [
             name: 'usage',
         },
         {
+            type: 'input',
+            message: 'Please list any Credits that helped with this project:',
+            name: 'credits',
+        },
+        {
             type: 'list',
             message: 'Please enter your license:',
             name: 'license',
