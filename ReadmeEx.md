@@ -9,20 +9,20 @@
 
 
 ## Description:
-whats
+my
 
 ## Installation: 
-yout
-
-## Usage:
 name
 
+## Usage:
+is
+
 ## Credits:
-James
+afi
 
 ## License:
-Apache_2
-[![License:Apache_2](https://img.shields.io/badge/license-Apache_2-success)](https://opensource.org/licenses/Apache_2)
+compliant
+[![License:compliant](https://img.shields.io/badge/license-compliant-ff69b4)](https://opensource.org/licenses/compliant)
 
 ## Contributions:
 whatsup

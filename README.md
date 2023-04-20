@@ -1,27 +1,12 @@
-# Happy
-# Table of Contents
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-- [Contributions](#contributions)
-
-
-I worked hard on this
-##Description:
-
-1 2 3
-##Installation: 
-
-this way that way 
-##Usage:
-
-undefined
-##Credits:
-
-Apache
-##License:
-
-nada zilch
-##Contributions:
+https://nodejs.org/docs/latest/api/process.html#processargv
+https://shields.io/category/license
+https://nodejs.org/en/download/releases
+https://docs.npmjs.com/cli/v8/commands/npm-install
+https://www.w3schools.com/nodejs/nodejs_filesystem.asp
+https://nodejs.org/docs/latest-v16.x/api/fs.html#fspromisesappendfilepath-data-options
+https://www.npmjs.com/package/@inquirer/checkbox
+https://stackoverflow.com/questions/62597209/trying-to-generate-a-readme-using-nodejs
+https://www.npmjs.com/package/inquirer
+https://nodejs.org/download/release/v16.0.0/
+https://opensource.org/license/
+https://docs.npmjs.com/cli/v6/commands/npm-init
