@@ -53,10 +53,11 @@ function init() {
     inquirer.prompt(questions)
     .then((response) => {
         const markdownPage = generateMarkdown(response)
-        writeToFile("ReadmeTest.md", markdownPage) 
+        writeToFile("ReadmeEx.md", markdownPage) 
     })
 }
 
 // Function call to initialize app
 init();
+
 

@@ -36,7 +36,7 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+// [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 }
 
 
@@ -45,23 +45,34 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  ## ${data.description}
-  ## ${data.installation}
-  ## ${data.usage}
-  ## ${data.credits}
-  ## ${data.license}
-  ## ${data.contributions}
-`;
-}
-
-
-## Table of Contents
-
+## Table of Contents:
+- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Contributing](#contributing)
+- [Contributions](#contributions)
+
+
+## Description:
+${data.description}
+
+## Installation: 
+${data.installation}
+
+## Usage:
+${data.usage}
+
+## Credits:
+${data.credits}
+
+## License:
+${data.license}
+
+## Contributions:
+${data.contributions}
+`;
+}
 
 module.exports = generateMarkdown;
 
