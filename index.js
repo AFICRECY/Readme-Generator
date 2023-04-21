@@ -23,6 +23,11 @@ const questions = [
         },
         {
             type: 'input',
+            message: 'Please include your code snippet',
+            name: 'codeSnippet',
+            },
+        {
+            type: 'input',
             message: 'How can you application be used?',
             name: 'usage',
         },

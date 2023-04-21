@@ -1,4 +1,4 @@
-# hello
+# hi
 ## Table of Contents:
 - [Description](#description)
 - [Installation](#installation)
@@ -9,19 +9,24 @@
 
 
 ## Description:
-whatsup
+whats
 
 ## Installation: 
-hi
+you
+
+## Code Snippet:
+```
+const fs = require('fs');
+```
 
 ## Usage:
-how are
+const inquirer = require('inquirer');
 
 ## Credits:
-ya
+d
 
 ## License:
-[![License: BSD](https://img.shields.io/badge/license-BSD-yellow)](https://opensource.org/license/BSD)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/license/MIT)
 
 ## Contributions:
-f 
+f

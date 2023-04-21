@@ -63,6 +63,11 @@ ${data.description}
 ## Installation: 
 ${data.installation}
 
+## Code Snippet:
+\`\`\`
+${data.codeSnippet[0]}
+\`\`\`
+
 ## Usage:
 ${data.usage}
 
