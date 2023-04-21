@@ -148,27 +148,44 @@ function init() {
 (Above: This code uses the inquirer package to prompt the user with a set of questions, generates a markdown file based on their responses using the generateMarkdown() function, and writes the generated markdown to a file using the writeToFile() function.)
 
 
-### Usage:
+
+## Usage:
 In addition to providing information about the application itself, a README.md file can also serve as a marketing tool by highlighting the unique features and benefits of your application. This can help to generate interest and attract users or potential clients. Furthermore, a well-written README.md file can save time and reduce confusion by answering common questions and providing troubleshooting information. This can help to reduce the number of support requests and enhance the user experience. 
 
 Because of this, README.md files are regularly created by developers creating web applications through GitHub. Having access to a README generator that auto generates the README outline and format is super useful and can save so much time in the development process. All a user would have to do with this web application is (1) Pull up their integrated terminal, (2) Input “node index.js” into the command-line, (3) The user is prompted with a list of questions where their inputs will auto generate a README outline.  
 
 Overall, this application streamlines the README.md file creation and can save the time of web developers who utilize GitHub as a website application deployment service. 
 
+### License:
+MIT License
+
+Copyright (c) [2023] [Afi Nkhume-Crecy]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 
 
 
-
-
-https://nodejs.org/docs/latest/api/process.html#processargv
-https://shields.io/category/license
-https://nodejs.org/en/download/releases
-https://docs.npmjs.com/cli/v8/commands/npm-install
-https://www.w3schools.com/nodejs/nodejs_filesystem.asp
-https://nodejs.org/docs/latest-v16.x/api/fs.html#fspromisesappendfilepath-data-options
-https://www.npmjs.com/package/@inquirer/checkbox
-https://stackoverflow.com/questions/62597209/trying-to-generate-a-readme-using-nodejs
-https://www.npmjs.com/package/inquirer
-https://nodejs.org/download/release/v16.0.0/
-https://opensource.org/license/
-https://docs.npmjs.com/cli/v6/commands/npm-init
+## Credits
+* Process.argv: https://nodejs.org/docs/latest/api/process.html#processargv
+* License: https://shields.io/category/license
+* Node.js Docs: https://nodejs.org/en/download/releases
+* NPM Install: https://docs.npmjs.com/cli/v8/commands/npm-install
+* Node.js (File System): https://www.w3schools.com/nodejs/nodejs_filesystem.asp
+* FS DOcs: https://nodejs.org/docs/latest-v16.x/api/fs.html#fspromisesappendfilepath-data-options
+* Inquirer Package: https://www.npmjs.com/package/@inquirer/checkbox
+* Markdown in Nodejs: https://stackoverflow.com/questions/62597209/trying-to-generate-a-readme-using-nodejs
+* Iquirer: https://www.npmjs.com/package/inquirer
+* Node.js Download: https://nodejs.org/download/release/v16.0.0/
+* License Information: https://opensource.org/license/
+* NPM Init: https://docs.npmjs.com/cli/v6/commands/npm-init
