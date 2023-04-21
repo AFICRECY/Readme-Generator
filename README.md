@@ -111,6 +111,16 @@ const questions = [
 
 
 
+```
+ {
+            type: 'list',
+            message: 'Please enter your license:',
+            name: 'license',
+            choices: ['MIT', 'BSD','Apache','Apache_2', 'GPL','compliant', 'none'],
+        },
+```
+(Above: This code is allowing the user to have a list of options to choose from in the "choices" above in the command line. The use the up and down arrows to sift through the choices and select with the space bar, and press enter to move to the next question.)
+
 
 ```
 function writeToFile(fileName, data) {
@@ -138,6 +148,12 @@ function init() {
 (Above: This code uses the inquirer package to prompt the user with a set of questions, generates a markdown file based on their responses using the generateMarkdown() function, and writes the generated markdown to a file using the writeToFile() function.)
 
 
+### Usage:
+In addition to providing information about the application itself, a README.md file can also serve as a marketing tool by highlighting the unique features and benefits of your application. This can help to generate interest and attract users or potential clients. Furthermore, a well-written README.md file can save time and reduce confusion by answering common questions and providing troubleshooting information. This can help to reduce the number of support requests and enhance the user experience. 
+
+Because of this, README.md files are regularly created by developers creating web applications through GitHub. Having access to a README generator that auto generates the README outline and format is super useful and can save so much time in the development process. All a user would have to do with this web application is (1) Pull up their integrated terminal, (2) Input “node index.js” into the command-line, (3) The user is prompted with a list of questions where their inputs will auto generate a README outline.  
+
+Overall, this application streamlines the README.md file creation and can save the time of web developers who utilize GitHub as a website application deployment service. 
 
 
 
