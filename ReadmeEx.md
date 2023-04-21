@@ -1,4 +1,4 @@
-# hi
+# hello
 ## Table of Contents:
 - [Description](#description)
 - [Installation](#installation)
@@ -9,20 +9,19 @@
 
 
 ## Description:
-my
+whatsup
 
 ## Installation: 
-name
+hi
 
 ## Usage:
-is
+how are
 
 ## Credits:
-afi
+ya
 
 ## License:
-compliant
-[![License:compliant](https://img.shields.io/badge/license-compliant-ff69b4)](https://opensource.org/licenses/compliant)
+[![License: BSD](https://img.shields.io/badge/license-BSD-yellow)](https://opensource.org/license/BSD)
 
 ## Contributions:
-whatsup
+f 
